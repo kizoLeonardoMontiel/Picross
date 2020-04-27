@@ -21,7 +21,7 @@ namespace Picross
             graphics.PreferredBackBufferWidth = 1920;
             graphics.PreferredBackBufferHeight = 1080;
             this.IsMouseVisible = true;
-
+            menu = new Menus(spriteBatch, f, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
         }
 
         protected override void Initialize()
@@ -46,14 +46,16 @@ namespace Picross
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            
+          
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
             // TODO: Add your update logic here
-
+            menu.UpdateMenu(gameTime);
             base.Update(gameTime);
         }
+
+       
 
         /// <summary>
         /// This is called when the game should draw itself.
@@ -63,10 +65,8 @@ namespace Picross
         {
             //Get height and width to draw the menu stuff
             
-            int w = graphics.PreferredBackBufferWidth;  int h = graphics.PreferredBackBufferHeight;
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            menu = new Menus(spriteBatch, f, w, h);
-
+            menu = new Menus(spriteBatch, f, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
 
             spriteBatch.Begin();
             //Draw main menu on startup

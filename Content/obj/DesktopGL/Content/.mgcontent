@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/leo-m/source/repos/Picross/Content/MainMenuFont.spritefont</File>
+    <File>C:/Users/leo-m/Picross/Content/MainMenuFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

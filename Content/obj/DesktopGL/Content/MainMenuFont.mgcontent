@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/leo-m/source/repos/Picross/Content/MainMenuFont.spritefont</SourceFile>
-  <SourceTime>2020-04-25T23:50:42.4999947-03:00</SourceTime>
-  <DestFile>C:/Users/leo-m/source/repos/Picross/Content/bin/DesktopGL/Content/MainMenuFont.xnb</DestFile>
-  <DestTime>2020-04-26T00:04:10.2170378-03:00</DestTime>
+  <SourceFile>C:/Users/leo-m/Picross/Content/MainMenuFont.spritefont</SourceFile>
+  <SourceTime>2020-04-26T18:27:26.846133-03:00</SourceTime>
+  <DestFile>C:/Users/leo-m/Picross/Content/bin/DesktopGL/Content/MainMenuFont.xnb</DestFile>
+  <DestTime>2020-04-26T18:28:04.4350969-03:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2018-12-08T14:35:54-02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
